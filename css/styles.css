@@ -1,8 +1,31 @@
 .nav-item {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .cards img {
-    width: 15rem;
-    height: 15rem;
+  width: 15rem;
+  height: 15rem;
+}
+
+.ticket_center {
+  background-color: #e9ecef;
+}
+
+.map_embed {
+  overflow: hidden;
+  padding-bottom: 80%;
+  position: relative;
+  height: 0;
+}
+
+.map_embed iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.icon {
+  font-size: 1.5rem;
 }
